@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    height: 120px;
+    border-bottom: 5px solid #afafaf;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+li{
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+li:hover{
+    border-bottom: 4px solid #696969;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: .4;
+}
+
+article{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+.page-title{
+    color:#afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+.main{
+    background-color: rgb(43, 43, 43);
+    opacity: .96;
+    height: 85%;
+    width: 100%;
+    border-bottom: 4px solid #afafaf;
+    overflow-y: auto;
+}
+.home-canvas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 5em;
+    justify-self: flex-end;
+    border-bottom: 2px solid #afafaf ;
+    font-weight: 300;
+}
+.main p{
+    color:white;
+    margin: 10px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.main button{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border:none;
+    background-color: #da4545;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.main button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.main::-webkit-scrollbar{
+    width: .5em;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: #c59c5f70;
+}
+.transparent{
+    background-color: rgba(63, 63, 63, 0.562);
+}
