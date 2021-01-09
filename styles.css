@@ -60,12 +60,23 @@ article{
     justify-content: center;
     overflow-y: hidden;
 }
+.title-container{
+    display: flex;
+    align-items: center;
+}
 .page-title{
-    color:#afafaf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    color:rgb(10, 10, 10);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
     margin-top: 15px;
-    margin-bottom: 30px; 
+    margin-bottom: 10px; 
+    display: inline;
+    font-weight: 200;
+}
+.first-letter{
+    font-size: 140px;
+    display: inline;
+    font-weight: bolder;
 }
 .main{
     background-color: rgb(43, 43, 43);
