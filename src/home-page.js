@@ -8,9 +8,16 @@ function render(){
     let $content = createHtmlElement('h2', 'bienvenido');
     let $slogan = createHtmlElement('p', "Encuentra San Miguel de Allende");
     let $button = createHtmlElement('button', 'Ver revista');
-    let $title = createHtmlElement('h1', 'Revista Encuentros');
+    let $titleContainer = document.createElement('div');
+    $titleContainer.classList.add('title-container');
+    let $titleFirstLetter = createHtmlElement('h1', 'E');
+    let $title = createHtmlElement('h1', 'ncuentros');
     $title.classList.add('page-title');
-    $canvas.appendChild($title);
+    $titleFirstLetter.classList.add('page-title');
+    $titleFirstLetter.classList.add('first-letter');
+    $titleContainer.appendChild($titleFirstLetter);
+    $titleContainer.appendChild($title);
+    $canvas.appendChild($titleContainer);
     $canvas.appendChild($content);
     $canvas.appendChild($slogan);
     $canvas.appendChild($button);
