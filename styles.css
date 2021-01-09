@@ -65,7 +65,7 @@ article{
     align-items: center;
 }
 .page-title{
-    color:rgb(10, 10, 10);
+    color:rgb(236, 236, 236);
     font-family:'Times New Roman', Times, serif;
     font-size: 80px;
     margin-top: 15px;
@@ -93,7 +93,7 @@ article{
     justify-content: center;
 }
 .main h2{
-    color: white;
+    color: rgb(5, 5, 5);
     text-transform: uppercase;
     font-size: 5em;
     justify-self: flex-end;
@@ -128,5 +128,5 @@ article{
     background-color: #c59c5f70;
 }
 .transparent{
-    background-color: rgba(63, 63, 63, 0.562);
+    background-color: rgba(63, 63, 63, 0.705);
 }
